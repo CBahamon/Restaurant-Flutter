@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'button_purple.dart';
 
 // ignore: must_be_immutable
 class DescriptionPlace extends StatelessWidget {
@@ -16,8 +17,6 @@ class DescriptionPlace extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var edgeInsets = const EdgeInsets.only(top: 320.0, left: 20.0, right: 20.0);
-  
-
 
     var tittleDescription = Text(
       namePlace,
@@ -78,9 +77,11 @@ final starBorder = Container(
     );
 
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         titleStars,
-        textDescription
+        textDescription,
+        ButtonPurple( title_button: 'Navigate')
       ],
     );
   }

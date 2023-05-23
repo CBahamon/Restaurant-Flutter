@@ -8,7 +8,7 @@ const CardImageList({ Key? key }) : super(key: key);
   Widget build(BuildContext context){
 
     final slider = Container(
-      height: 350.0,
+      height: 380.0,
       child: ListView(
         padding: EdgeInsets.all(25.0),
         scrollDirection: Axis.horizontal,

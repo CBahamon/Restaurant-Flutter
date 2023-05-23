@@ -10,10 +10,10 @@ String imgUrl ;
   Widget build(BuildContext context){
 
     final card = Container(
-      height: 200.0,
+      height: 380.0,
       width: 250.0,
       margin: const EdgeInsets.only(
-        top: 100.0,
+        top: 110.0,
         left: 20.0,
       ),
 

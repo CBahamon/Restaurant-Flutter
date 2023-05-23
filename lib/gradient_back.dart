@@ -20,7 +20,7 @@ class GradientBack extends StatelessWidget {
             Color.fromRGBO(32, 38, 57, 1),
             Color.fromRGBO(63, 76, 119, 1),
             Color.fromRGBO(250, 250, 250, 1),
-            Color.fromRGBO(250, 250, 250, 0.6),
+            Color.fromRGBO(250, 250, 250, 0.7),
           ] ,
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
@@ -30,7 +30,7 @@ class GradientBack extends StatelessWidget {
           )
       ),
 
-      alignment: const Alignment(-0.9,-0.5),
+      alignment: const Alignment(-0.8,-0.6),
 
       child: Text(
         title,

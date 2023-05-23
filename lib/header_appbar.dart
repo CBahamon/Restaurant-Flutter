@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:travel/card_image_list.dart';
-import 'package:travel/description_place.dart';
 import 'package:travel/gradient_back.dart';
 
 
